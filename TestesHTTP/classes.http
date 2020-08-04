@@ -1,6 +1,6 @@
 #Testando users
 
-GET http://localhost:3333/classes
+GET http://localhost:3333/classes?week_day=1&subject=Matemática&time=11:00
 
 ###
 GET http://localhost:3333/schedule
