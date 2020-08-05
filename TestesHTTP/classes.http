@@ -23,5 +23,16 @@ Content-Type: application/json
         { "week_day": 3, "from": "10:00", "to": "18:00" },
         { "week_day": 4, "from": "8:00", "to": "12:00" }
     ]
-
 }
+
+###
+POST http://localhost:3333/connections
+Content-Type: application/json
+
+{
+    "user_id": 1
+}
+
+###
+
+GET http://localhost:3333/connections

@@ -1,17 +1,25 @@
 import express from 'express';
-import db from './database/connection';
 
 import ClassesController from './controllers/ClassesController';
+import ConnectionsController from './controllers/ConnectionsController';
 
 const routes = express.Router();
-const classesControllers = new ClassesController();
 
+const classesControllers = new ClassesController();
+const connectionControllers = new ConnectionsController();
+
+
+//Classes e professores
 routes.post('/classes', classesControllers.create);
 routes.get('/classes', classesControllers.index);
 
-routes.get("/schedule", async (request, response) => {
-    const classes = await db('class_schedule').select('*');
-    console.log(classes);
+routes.post('/connections', connectionControllers.create);
+routes.get('/connections', connectionControllers.index);
+
+
+
+routes.get("/", async (request, response) => {
+    return response.send('Deus é mais')
 });
 
 export default routes;
