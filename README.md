@@ -1,5 +1,5 @@
 
-# ***Proffy - Back-end***
+# ***Proffy Back-end***
 
 <h1 align=center>
   <img src="assets/img/Banner.PNG" alt="Proffy Banner"/>
@@ -15,8 +15,11 @@
   <a href="https://www.linkedin.com/in/luiz-carlos-vilela" target="_blank"> 
     <img src="https://img.shields.io/badge/Developer-Luiz%20Carlos-brightgreen?style=flat&logo=Linkedin&logoColor=white" alt="Developer link" />
   </a>
-
 </div>
+
+<h1 align=center>
+  <img src="assets/img/LogoBack.png" alt="Proffy Back-end"/>
+</h1>
 
 ## **:rocket: OBJETIVO**
 
@@ -58,23 +61,7 @@ Se você estiver utilizando o **Linux**, você pode optar por instalar o **Node*
 
 Você pode optar também por utilizar o **yarn** no lugar do **npm**. Você pode instalar clicando nesse <kbd>[link][yarn]</kbd>, ou através do <kbd>[asdf]</kbd>.
 
-Após ter o **Node** instalado, instale as dependências do **React e React Native (Expo)** de forma global, utilizando os comandos:
-
-```sh
-# React:
-$ npm install create-react-app -g
-
-# Expo (React Native):
-$ npm install -g expo-cli 
-```
-
-Você precisa renomear o arquivo `.env-example` para `.env` e inserir as informações que condizem com o seu **host**:
-
-```sh
-$ mv .env-example .env
-```
-
-Instale as dependências contidas nos arquivos `package.json` que se encontram na raíz do repositório (para o gerenciamento de commits), no diretório do **server**, no diretório do **website** e no diretório **mobile**. Para instalar as dependências, basta abrir o terminal no diretório e digitar o comando:
+Instale as dependências contidas nos arquivos `package.json` que se encontram na raíz do repositório (para o gerenciamento de commits), no diretório do **server**. Para instalar as dependências, basta abrir o terminal no diretório e digitar o comando:
 
 ```sh
 $ npm install
@@ -93,13 +80,6 @@ $ npm install
 $ cd ./sources/server
 $ npm install
 
-# Instalando as dependências do website:
-$ cd ./sources/website
-$ npm install
-
-# Instalando as dependências do mobile:
-$ cd ./sources/mobile
-$ npm install
 ```
 
 Veja os arquivos **`package.json`** do <kbd>[commitlint](./package.json)</kbd>, <kbd>[server](https://github.com/LuizCarlosVilela/nlw-2-backend/blob/master/package.json)</kbd>, <kbd>[website](https://github.com/LuizCarlosVilela/nlw-2-web/blob/master/package.json)</kbd> e <kbd>[mobile](https://github.com/LuizCarlosVilela/nlw-2-mobile/blob/master/package.json)</kbd>.
@@ -124,26 +104,19 @@ $ npm run knex:seed
 
 ## **:books: REFERÊNCIAS**
 
-- [React + TypeScript Cheat Sheet](https://github.com/typescript-cheatsheets/react-typescript-cheatsheet)
 - [Blog Rocketseat](https://blog.rocketseat.com.br/)
 - [ReactJS](https://reactjs.org/docs/getting-started.html) | [ReactJS pt-BR](https://pt-br.reactjs.org/docs/getting-started.html)
 - [TypeScript](https://www.typescriptlang.org/docs/home.html)
-- [React Native](https://reactnative.dev/docs/getting-started)
 - [Expo](https://expo.io/learn)
 - [Knex][knex]
 - [Express](https://expressjs.com/pt-br/)
 - [Node](https://nodejs.org/en/)
-- [Celebrate](https://github.com/arb/celebrate)
-- [Joi](https://hapi.dev/module/joi/)
 
 ## **:page_with_curl: LICENÇA**
 
 Este repositório está licenciado pela **MIT LICENSE**. Para mais informações detalhadas, leia o arquivo [LICENSE](./LICENSE) contido nesse repositório. 
 
 <h2 align="center">Feito com ❤️ por <a href="https://www.linkedin.com/in/luiz-carlos-vilela/">Luiz Carlos Vilela</a></h2>
-
-<!-- Website Links -->
-
 
 <!-- Website Links -->
 
@@ -199,3 +172,48 @@ Este repositório está licenciado pela **MIT LICENSE**. Para mais informações
 
 [tsnode]: https://github.com/TypeStrong/ts-node
 
+[feather_icons]: https://feathericons.com/
+
+[insomnia]: https://insomnia.rest/
+
+[react_leaflet]: https://react-leaflet.js.org/
+
+[react_router_dom]: https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom
+
+[react_icons]: https://react-icons.github.io/react-icons/
+
+[axios]: https://github.com/axios/axios
+
+[dotenv]: https://github.com/motdotla/dotenv
+
+[expo]: https://expo.io/
+
+[expo_google_fonts]: https://github.com/expo/google-fonts
+
+[react_navigation]: https://reactnavigation.org/
+
+[expo_constants]: https://docs.expo.io/versions/latest/sdk/constants/
+
+[react_native_svg]: https://github.com/react-native-community/react-native-svg
+
+[expo_location]: https://docs.expo.io/versions/latest/sdk/location/
+
+[expo_mail_composer]: https://docs.expo.io/versions/latest/sdk/mail-composer/
+
+[font_archivo]: https://fonts.google.com/specimen/Archivo
+
+[font_poopins]: https://fonts.google.com/specimen/Poppins
+
+[font_awesome]: https://fontawesome.com/
+
+[multer]: https://github.com/expressjs/multer
+
+[celebrate]: https://github.com/arb/celebrate
+
+[joi]: https://github.com/hapijs/joi
+
+[react_dropzone]: https://github.com/react-dropzone/react-dropzone
+
+[asdf]: https://github.com/asdf-vm/asdf
+
+[yarn]: https://classic.yarnpkg.com/en/docs/install/#debian-stable
