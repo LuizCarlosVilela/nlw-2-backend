@@ -17,6 +17,13 @@
   </a>
 </div>
 
+<h3 align=center>
+  
+:books:
+Proffy é um projeto **Open Source** desenvolvido na semana **Next Level Week (2.0)** da **[Rocketseat][rocketseat_site]** utilizando as tecnologias ***TypeScript, Node, React e React Native***.
+
+</h3>
+
 <h1 align=center>
   <img src="assets/img/LogoBack.png" alt="Proffy Back-end"/>
 </h1>
