@@ -28,15 +28,15 @@ Proffy é um projeto **Open Source** desenvolvido na semana **Next Level Week (2
   <img src="assets/img/LogoBack.png" alt="Proffy Back-end"/>
 </h1>
 
-## **:rocket: OBJETIVO**
+## ***:rocket: OBJETIVO***
 
 <p align=justify> 
 O projeto tem como finalidade <strong>estabelecer uma conexão</strong> entre os <strong>professores</strong> (Proffys) e os <strong>alunos</strong> que desejam um professor com qualificação para dar orientações e aulas sobre determinada matéria. Solucionando então um <strong>problema de comunicação</strong> entre <strong>professores</strong> que queira dar aulas, e <strong>alunos</strong> que desejam um professor para orientar nos <strong>estudos em diversas áreas</strong>.
 </p>
 
-## **:computer: TECNOLOGIAS**
+## ***:computer: TECNOLOGIAS***
 
-#### **Server** ([NodeJS][node] + [TypeScript][typescript])
+#### ***:floppy_disk:	 Server ([NodeJS][node] + [TypeScript][typescript])***
 
   - **[Express][express]**
   - **[CORS][cors]**
@@ -48,7 +48,7 @@ O projeto tem como finalidade <strong>estabelecer uma conexão</strong> entre os
   Arquivo json do Back-end <kbd>[package.json](https://github.com/LuizCarlosVilela/nlw-2-backend/blob/master/package.json)</kbd>
  
 
-#### **Utilitários**
+#### ***Utilitários***
 
 - Protótipo: **[Figma](https://www.figma.com/)** &rarr; **<kbd>[Protótipo (Proffy)](https://www.figma.com/file/GHGS126t7WYjnPZdRKChJF/Proffy-Web/duplicate)</kbd>**
 - Editor: **[Visual Studio Code][vscode]** &rarr; Extensions: **<kbd>[SQLite][vscode_sqlite_extension]</kbd>**
@@ -58,9 +58,9 @@ O projeto tem como finalidade <strong>estabelecer uma conexão</strong> entre os
 - Ícones: **[Feather Icons][feather_icons]**, **[Font Awesome][font_awesome]**
 - Fontes: **[Archivo][font_archivo]**, **[Poopins][font_poopins]**
   
-## **:wine_glass: COMO UTILIZAR**
+## ***:wine_glass: COMO UTILIZAR***
 
-### Configurações Iniciais
+### ***Configurações Iniciais***
 
 Primeiro, você precisa ter o <kbd>[NodeJS](https://nodejs.org/en/download/)</kbd> instalado na sua máquina. 
 
@@ -91,7 +91,7 @@ $ npm install
 
 Veja os arquivos **`package.json`** do <kbd>[commitlint](./package.json)</kbd>, <kbd>[server](https://github.com/LuizCarlosVilela/nlw-2-backend/blob/master/package.json)</kbd>, <kbd>[website](https://github.com/LuizCarlosVilela/nlw-2-web/blob/master/package.json)</kbd> e <kbd>[mobile](https://github.com/LuizCarlosVilela/nlw-2-mobile/blob/master/package.json)</kbd>.
 
-### Utilizando o Server
+### ***Utilizando o Server***
 
 ```sh
 # Abrindo o terminal no diretório do servidor:
@@ -109,7 +109,7 @@ $ npm run knex:seed
 
 > Veja a parte de **scripts {}** do arquivo <kbd>[package.json](https://github.com/LuizCarlosVilela/nlw-2-backend/blob/master/package.json)</kbd> para saber quais scripts estão disponíveis.
 
-## **:books: REFERÊNCIAS**
+## ***:books: REFERÊNCIAS***
 
 - [Blog Rocketseat](https://blog.rocketseat.com.br/)
 - [ReactJS](https://reactjs.org/docs/getting-started.html) | [ReactJS pt-BR](https://pt-br.reactjs.org/docs/getting-started.html)
@@ -119,11 +119,11 @@ $ npm run knex:seed
 - [Express](https://expressjs.com/pt-br/)
 - [Node](https://nodejs.org/en/)
 
-## **:page_with_curl: LICENÇA**
+## ***:page_with_curl: LICENÇA***
 
 Este repositório está licenciado pela **MIT LICENSE**. Para mais informações detalhadas, leia o arquivo [LICENSE](./LICENSE) contido nesse repositório. 
 
-<h2 align="center">Feito com ❤️ por <a href="https://www.linkedin.com/in/luiz-carlos-vilela/">Luiz Carlos Vilela</a></h2>
+<i><h2 align="center">Feito com ❤️ por <a href="https://www.linkedin.com/in/luiz-carlos-vilela/">Luiz Carlos Vilela</a></h2></i>
 
 <!-- Website Links -->
 
